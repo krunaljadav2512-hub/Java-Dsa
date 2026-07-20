@@ -4,7 +4,7 @@
  Time Complexity: O(n)
  Space Complexity: O(n)
  */
-public class 1920-Build-Array-from-Permutation{
+class Solution{
     public int[] buildArray(int[] nums) {
         int[] ans = new int[nums.length];
         for(int i = 0; i < nums.length; i++){
