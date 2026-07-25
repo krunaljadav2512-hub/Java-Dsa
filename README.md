@@ -6,6 +6,14 @@
 ## LeetCode
 - 1920 - Build Array from Permutation
 - 1929 - Concatenation of Array
+- 1480 - Running Sum of 1D Array
+- 1672 - Richest Customer Wealth
+- 412  - Fizz Buzz
+- 1342 - Number of Steps to Reduce a Number to Zero
+- 2011 - Final Value of Variable After Performing Operations
+- 724  - Find Pivot Index
+- 26   - Remove Duplicates from Sorted Array
 
 ## HackerRank
-- coming soon
+- Solve Me First
+- 
