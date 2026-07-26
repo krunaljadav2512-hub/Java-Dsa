@@ -13,7 +13,10 @@
 - 2011 - Final Value of Variable After Performing Operations
 - 724  - Find Pivot Index
 - 26   - Remove Duplicates from Sorted Array
+- 1470 - Shuffle the Array
 
 ## HackerRank
 - Solve Me First
-- 
+- Simple Array Sum
+- Compare the Triplets
+- A Very Big Sum
