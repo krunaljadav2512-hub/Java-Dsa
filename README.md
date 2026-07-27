@@ -14,6 +14,7 @@
 - 724  - Find Pivot Index
 - 26   - Remove Duplicates from Sorted Array
 - 1470 - Shuffle the Array
+- 27   - Remove Element
 
 ## HackerRank
 - Solve Me First
