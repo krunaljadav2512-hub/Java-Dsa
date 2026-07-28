@@ -15,6 +15,7 @@
 - 26   - Remove Duplicates from Sorted Array
 - 1470 - Shuffle the Array
 - 27   - Remove Element
+- 80   - Remove Duplicates from Sorted Array II
 
 ## HackerRank
 - Solve Me First
