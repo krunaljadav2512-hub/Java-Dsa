@@ -16,6 +16,7 @@
 - 1470 - Shuffle the Array
 - 27   - Remove Element
 - 80   - Remove Duplicates from Sorted Array II
+- 88   -  Merge Sorted Array
 
 ## HackerRank
 - Solve Me First
