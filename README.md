@@ -18,6 +18,7 @@
 - 80   - Remove Duplicates from Sorted Array II
 - 88   -  Merge Sorted Array
 - 283  - Move Zeroes
+- 121  - Best Time to Buy and Sell Stock
 
 ## HackerRank
 - Solve Me First
