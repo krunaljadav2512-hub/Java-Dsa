@@ -17,6 +17,7 @@
 - 27   - Remove Element
 - 80   - Remove Duplicates from Sorted Array II
 - 88   -  Merge Sorted Array
+- 283  - Move Zeroes
 
 ## HackerRank
 - Solve Me First
