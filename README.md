@@ -19,6 +19,7 @@
 - 88   -  Merge Sorted Array
 - 283  - Move Zeroes
 - 121  - Best Time to Buy and Sell Stock
+- 118  - Pascal's Triangle
 
 ## HackerRank
 - Solve Me First
