@@ -32,3 +32,4 @@
 - Mini-Max Sum
 - Save the Prisoner!
 - Grading Students
+- Apple and Orange
