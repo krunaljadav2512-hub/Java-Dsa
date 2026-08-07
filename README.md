@@ -30,3 +30,4 @@
 - Plus Minus
 - Staircase
 - Mini-Max Sum
+- Save the Prisoner!
