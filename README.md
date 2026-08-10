@@ -38,3 +38,5 @@
 - Between Two Sets
 - Breaking the Record
 - Subarray Division
+- Divisible Sum Pairs
+- Migratory Birds
