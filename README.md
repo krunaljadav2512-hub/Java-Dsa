@@ -44,3 +44,5 @@
 - Bill Division
 - Jumping on the Clouds: Revisited
 - Find Digits
+- Append and Delete
+- Sherlock and Squares
