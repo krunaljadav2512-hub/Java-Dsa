@@ -48,3 +48,5 @@
 - Sherlock and Squares
 - Sales by Match
 - Drawing Book
+- Counting Valleys
+- Library Fine
