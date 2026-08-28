@@ -53,6 +53,7 @@
 - Electronics Shop
 - Cats and a Mouse
 - The Hurdle Race
-- Repeated StringRe
+- Repeated String
 - Jumping on the Clouds
 - Equalize the Array
+- Designer PDF Viewer
