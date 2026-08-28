@@ -55,3 +55,4 @@
 - The Hurdle Race
 - Repeated StringRe
 - Jumping on the Clouds
+- Equalize the Array
