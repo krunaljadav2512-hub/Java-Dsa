@@ -13,16 +13,18 @@ import static java.util.stream.Collectors.toList;
 class Solution{
     public static List<Integer> kaprekarNumbers(int p, int q){
         List nums = new ArrayList<>();
-        
-        for(int i = p; i <= q; i++){
-            int sqr = i * i;
+        if(p > q){
+            return nums;
+        }
+        for(long i = p; i <= q; i++){
+            long sqr = i * i;
             
             int d = String.valueOf(i).length();
             
-            int divisor = (int)Math.pow(10, d);
+            long divisor = (long)Math.pow(10, d);
             
-            int l = sqr / divisor;
-            int r = sqr % divisor;
+            long l = sqr / divisor;//start
+            long r = sqr % divisor;//end
             
             if(l + r == i){
                 nums.add(i);
@@ -36,6 +38,9 @@ class Solution{
         int q = sc.nextInt();
         
         List<Integer> result = kaprekarNumbers(p, q);
+        if(result.isEmpty()){
+            System.out.print("INVALID RANGE");
+        }
         for(int i = 0; i < result.size(); i++){
             System.out.print(result.get(i) + " ");
         }
