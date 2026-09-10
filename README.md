@@ -67,4 +67,4 @@
 - Save the Prisoner!
 - Beautiful Triplets
 - Minimum Distances
-- Helloween Sale
+- Halloween Sale
