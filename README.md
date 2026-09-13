@@ -69,4 +69,5 @@
 - Minimum Distances
 - Halloween Sale
 - Chocolate Feast
+- Sequence Equation
 - Service Lane
