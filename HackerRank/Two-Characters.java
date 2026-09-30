@@ -1,47 +1,81 @@
-public static int alternate(String s) {
-    ArrayList<Character> list = new ArrayList<>();
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
 
-    // Find unique characters
-    for (char ch : s.toCharArray()) {
-        if (!list.contains(ch)) {
-            list.add(ch);
+class Result {
+
+    public static int alternate(String s) {
+        ArrayList<Character> list = new ArrayList<>();
+
+
+        for (char ch : s.toCharArray()) {
+            if (!list.contains(ch)) {
+                list.add(ch);
+            }
         }
-    }
 
-    int max = 0;
+        int max = 0;
 
-    // Choose two characters
-    for (int i = 0; i < list.size() - 1; i++) {
 
-        for (int j = i + 1; j < list.size(); j++) {
+        for (int i = 0; i < list.size() - 1; i++) {
 
-            char first = list.get(i);
-            char second = list.get(j);
+            for (int j = i + 1; j < list.size(); j++) {
 
-            char previous = '\0';
-            int length = 0;
-            boolean isValid = true;
+                char first = list.get(i);
+                char second = list.get(j);
 
-            // Check the selected pair in original string
-            for (char ch : s.toCharArray()) {
+                char previous = '\0';
+                int length = 0;
+                boolean isValid = true;
 
-                if (ch == first || ch == second) {
+            
+                for (char ch : s.toCharArray()) {
 
-                    if (ch == previous) {
-                        isValid = false;
-                        break;
+                    if (ch == first || ch == second) {
+
+                        if (ch == previous) {
+                            isValid = false;
+                            break;
+                        }
+
+                        previous = ch;
+                        length++;
                     }
+                }
 
-                    previous = ch;
-                    length++;
+                if (isValid && length > max) {
+                    max = length;
                 }
             }
-
-            if (isValid && length > max) {
-                max = length;
-            }
         }
-    }
 
-    return max;
+        return max;
+    }    
+}
+
+class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int l = Integer.parseInt(bufferedReader.readLine().trim());
+
+        String s = bufferedReader.readLine();
+
+        int result = Result.alternate(s);
+
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
 }
