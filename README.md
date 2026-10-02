@@ -76,3 +76,4 @@
 - Fair Rations
 - Cavity Map
 - Two Characters
+- Super Reduced String
