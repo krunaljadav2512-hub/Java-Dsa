@@ -77,3 +77,4 @@
 - Cavity Map
 - Two Characters
 - Super Reduced String
+- Manasa and Stone
