@@ -79,3 +79,4 @@
 - Super Reduced String
 - Manasa and Stone
 - Happy LAndybudys
+- Strange Counter
