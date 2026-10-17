@@ -81,3 +81,5 @@
 - Happy LAndybudys
 - Strange Counter
 - Big Sorting
+- Intro to Tutorial challenges
+- Forming a Magic Square
