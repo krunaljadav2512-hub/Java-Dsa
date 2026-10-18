@@ -83,3 +83,4 @@
 - Big Sorting
 - Intro to Tutorial challenges
 - Forming a Magic Square
+- Camel Case
