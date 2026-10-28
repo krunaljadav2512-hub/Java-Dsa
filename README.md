@@ -85,3 +85,4 @@
 - Medium Leval: Forming a Magic Square
 - Camel Case
 - Insertion Sort - Part 1
+- Strong Password
