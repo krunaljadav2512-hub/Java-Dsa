@@ -87,3 +87,4 @@
 - Insertion Sort - Part 1
 - Strong Password
 - Insertion Sort - Part 2
+- Caesar Cipher
